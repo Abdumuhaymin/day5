@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.continer {
+    width: 1186px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-box {
+    display: flex;
+    align-items: center;
+}
+
+.head-link {
+    color: #373737;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 68px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-items {
+    width: 633px;
+}
+
+.hero-title {
+    color: #2F2F2F;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 15px;
+    width: 420px;
+}
+
+.hero-span {
+    color: #717CFF;
+}
+
+.hero-text {
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 42px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 64px;
+    background-color: #717CFF;
+    border-radius: 11px;
+}
+
+.hero-link {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 22px;
+    margin: auto;
+}
+
+.feature {
+    background-color: #fafafa;
+}
+
+.feature-title {
+    color: #373737;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    margin-bottom: 95px;
+    margin-top: 55px;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 112px;
+}
+
+.feature-svape {
+    display: flex;
+    width: 107px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.feature-box {
+    display: flex;
+    width: 107px;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+
+.feature-item {
+    width: 8px;
+    height: 8px;
+    background-color: #7C7C7C;
+    border-radius: 50%;
+}
+
+.svape {
+    background-color: #717CFF;
+    width: 10px;
+    height: 10px;
+}
